@@ -48,7 +48,7 @@ def progress_monitor():
         print(f"[{now}] Przetworzono {count[0]} kombinacji, obecna kombinacja: {''.join(current_combination)}")
 
 # Ścieżka do pliku ze słownikiem
-input_file = 'lista_slow.txt'  # Upewnij się, że plik jest w tym samym katalogu lub podaj pełną ścieżkę
+input_file = 'lista_slow_filtered_filtered.txt'  # Upewnij się, że plik jest w tym samym katalogu lub podaj pełną ścieżkę
 
 # Wczytanie słów ze słownika
 words = load_words(input_file)
